@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69BA14229C2809D004190EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA14129C2809D004190EF /* AppDelegate.swift */; };
+		A69BA14429C2809D004190EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA14329C2809D004190EF /* SceneDelegate.swift */; };
+		A69BA14629C2809D004190EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA14529C2809D004190EF /* ViewController.swift */; };
+		A69BA14929C2809D004190EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69BA14729C2809D004190EF /* Main.storyboard */; };
+		A69BA14B29C2809E004190EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69BA14A29C2809E004190EF /* Assets.xcassets */; };
+		A69BA14E29C2809E004190EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69BA14C29C2809E004190EF /* LaunchScreen.storyboard */; };
+		A69BA15929C2809E004190EF /* BasicCustomVCAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA15829C2809E004190EF /* BasicCustomVCAnimationTests.swift */; };
+		A69BA16329C2809E004190EF /* BasicCustomVCAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA16229C2809E004190EF /* BasicCustomVCAnimationUITests.swift */; };
+		A69BA16529C2809E004190EF /* BasicCustomVCAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA16429C2809E004190EF /* BasicCustomVCAnimationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A69BA15529C2809E004190EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69BA13629C2809D004190EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69BA13D29C2809D004190EF;
+			remoteInfo = BasicCustomVCAnimation;
+		};
+		A69BA15F29C2809E004190EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A69BA13629C2809D004190EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A69BA13D29C2809D004190EF;
+			remoteInfo = BasicCustomVCAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A69BA13E29C2809D004190EF /* BasicCustomVCAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicCustomVCAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69BA14129C2809D004190EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A69BA14329C2809D004190EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A69BA14529C2809D004190EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A69BA14829C2809D004190EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A69BA14A29C2809E004190EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A69BA14D29C2809E004190EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A69BA14F29C2809E004190EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69BA15429C2809E004190EF /* BasicCustomVCAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicCustomVCAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69BA15829C2809E004190EF /* BasicCustomVCAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCustomVCAnimationTests.swift; sourceTree = "<group>"; };
+		A69BA15E29C2809E004190EF /* BasicCustomVCAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicCustomVCAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69BA16229C2809E004190EF /* BasicCustomVCAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCustomVCAnimationUITests.swift; sourceTree = "<group>"; };
+		A69BA16429C2809E004190EF /* BasicCustomVCAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCustomVCAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69BA13B29C2809D004190EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69BA15129C2809E004190EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69BA15B29C2809E004190EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69BA13529C2809D004190EF = {
+			isa = PBXGroup;
+			children = (
+				A69BA14029C2809D004190EF /* BasicCustomVCAnimation */,
+				A69BA15729C2809E004190EF /* BasicCustomVCAnimationTests */,
+				A69BA16129C2809E004190EF /* BasicCustomVCAnimationUITests */,
+				A69BA13F29C2809D004190EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69BA13F29C2809D004190EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69BA13E29C2809D004190EF /* BasicCustomVCAnimation.app */,
+				A69BA15429C2809E004190EF /* BasicCustomVCAnimationTests.xctest */,
+				A69BA15E29C2809E004190EF /* BasicCustomVCAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69BA14029C2809D004190EF /* BasicCustomVCAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A69BA14129C2809D004190EF /* AppDelegate.swift */,
+				A69BA14329C2809D004190EF /* SceneDelegate.swift */,
+				A69BA14529C2809D004190EF /* ViewController.swift */,
+				A69BA14729C2809D004190EF /* Main.storyboard */,
+				A69BA14A29C2809E004190EF /* Assets.xcassets */,
+				A69BA14C29C2809E004190EF /* LaunchScreen.storyboard */,
+				A69BA14F29C2809E004190EF /* Info.plist */,
+			);
+			path = BasicCustomVCAnimation;
+			sourceTree = "<group>";
+		};
+		A69BA15729C2809E004190EF /* BasicCustomVCAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A69BA15829C2809E004190EF /* BasicCustomVCAnimationTests.swift */,
+			);
+			path = BasicCustomVCAnimationTests;
+			sourceTree = "<group>";
+		};
+		A69BA16129C2809E004190EF /* BasicCustomVCAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A69BA16229C2809E004190EF /* BasicCustomVCAnimationUITests.swift */,
+				A69BA16429C2809E004190EF /* BasicCustomVCAnimationUITestsLaunchTests.swift */,
+			);
+			path = BasicCustomVCAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69BA13D29C2809D004190EF /* BasicCustomVCAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69BA16829C2809E004190EF /* Build configuration list for PBXNativeTarget "BasicCustomVCAnimation" */;
+			buildPhases = (
+				A69BA13A29C2809D004190EF /* Sources */,
+				A69BA13B29C2809D004190EF /* Frameworks */,
+				A69BA13C29C2809D004190EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicCustomVCAnimation;
+			productName = BasicCustomVCAnimation;
+			productReference = A69BA13E29C2809D004190EF /* BasicCustomVCAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A69BA15329C2809E004190EF /* BasicCustomVCAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69BA16B29C2809E004190EF /* Build configuration list for PBXNativeTarget "BasicCustomVCAnimationTests" */;
+			buildPhases = (
+				A69BA15029C2809E004190EF /* Sources */,
+				A69BA15129C2809E004190EF /* Frameworks */,
+				A69BA15229C2809E004190EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69BA15629C2809E004190EF /* PBXTargetDependency */,
+			);
+			name = BasicCustomVCAnimationTests;
+			productName = BasicCustomVCAnimationTests;
+			productReference = A69BA15429C2809E004190EF /* BasicCustomVCAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A69BA15D29C2809E004190EF /* BasicCustomVCAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69BA16E29C2809E004190EF /* Build configuration list for PBXNativeTarget "BasicCustomVCAnimationUITests" */;
+			buildPhases = (
+				A69BA15A29C2809E004190EF /* Sources */,
+				A69BA15B29C2809E004190EF /* Frameworks */,
+				A69BA15C29C2809E004190EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A69BA16029C2809E004190EF /* PBXTargetDependency */,
+			);
+			name = BasicCustomVCAnimationUITests;
+			productName = BasicCustomVCAnimationUITests;
+			productReference = A69BA15E29C2809E004190EF /* BasicCustomVCAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69BA13629C2809D004190EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A69BA13D29C2809D004190EF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A69BA15329C2809E004190EF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A69BA13D29C2809D004190EF;
+					};
+					A69BA15D29C2809E004190EF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A69BA13D29C2809D004190EF;
+					};
+				};
+			};
+			buildConfigurationList = A69BA13929C2809D004190EF /* Build configuration list for PBXProject "BasicCustomVCAnimation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A69BA13529C2809D004190EF;
+			productRefGroup = A69BA13F29C2809D004190EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69BA13D29C2809D004190EF /* BasicCustomVCAnimation */,
+				A69BA15329C2809E004190EF /* BasicCustomVCAnimationTests */,
+				A69BA15D29C2809E004190EF /* BasicCustomVCAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69BA13C29C2809D004190EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69BA14E29C2809E004190EF /* LaunchScreen.storyboard in Resources */,
+				A69BA14B29C2809E004190EF /* Assets.xcassets in Resources */,
+				A69BA14929C2809D004190EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69BA15229C2809E004190EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69BA15C29C2809E004190EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69BA13A29C2809D004190EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69BA14629C2809D004190EF /* ViewController.swift in Sources */,
+				A69BA14229C2809D004190EF /* AppDelegate.swift in Sources */,
+				A69BA14429C2809D004190EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69BA15029C2809E004190EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69BA15929C2809E004190EF /* BasicCustomVCAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69BA15A29C2809E004190EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69BA16529C2809E004190EF /* BasicCustomVCAnimationUITestsLaunchTests.swift in Sources */,
+				A69BA16329C2809E004190EF /* BasicCustomVCAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A69BA15629C2809E004190EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69BA13D29C2809D004190EF /* BasicCustomVCAnimation */;
+			targetProxy = A69BA15529C2809E004190EF /* PBXContainerItemProxy */;
+		};
+		A69BA16029C2809E004190EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A69BA13D29C2809D004190EF /* BasicCustomVCAnimation */;
+			targetProxy = A69BA15F29C2809E004190EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A69BA14729C2809D004190EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69BA14829C2809D004190EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A69BA14C29C2809E004190EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69BA14D29C2809E004190EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69BA16629C2809E004190EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A69BA16729C2809E004190EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69BA16929C2809E004190EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BasicCustomVCAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.BasicCustomVCAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A69BA16A29C2809E004190EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BasicCustomVCAnimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.BasicCustomVCAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A69BA16C29C2809E004190EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.BasicCustomVCAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicCustomVCAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BasicCustomVCAnimation";
+			};
+			name = Debug;
+		};
+		A69BA16D29C2809E004190EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.BasicCustomVCAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BasicCustomVCAnimation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BasicCustomVCAnimation";
+			};
+			name = Release;
+		};
+		A69BA16F29C2809E004190EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.BasicCustomVCAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BasicCustomVCAnimation;
+			};
+			name = Debug;
+		};
+		A69BA17029C2809E004190EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.BasicCustomVCAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BasicCustomVCAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69BA13929C2809D004190EF /* Build configuration list for PBXProject "BasicCustomVCAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69BA16629C2809E004190EF /* Debug */,
+				A69BA16729C2809E004190EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69BA16829C2809E004190EF /* Build configuration list for PBXNativeTarget "BasicCustomVCAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69BA16929C2809E004190EF /* Debug */,
+				A69BA16A29C2809E004190EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69BA16B29C2809E004190EF /* Build configuration list for PBXNativeTarget "BasicCustomVCAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69BA16C29C2809E004190EF /* Debug */,
+				A69BA16D29C2809E004190EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69BA16E29C2809E004190EF /* Build configuration list for PBXNativeTarget "BasicCustomVCAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69BA16F29C2809E004190EF /* Debug */,
+				A69BA17029C2809E004190EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69BA13629C2809D004190EF /* Project object */;
+}
