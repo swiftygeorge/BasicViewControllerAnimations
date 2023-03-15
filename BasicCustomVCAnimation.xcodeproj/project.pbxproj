@@ -16,6 +16,7 @@
 		A69BA15929C2809E004190EF /* BasicCustomVCAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA15829C2809E004190EF /* BasicCustomVCAnimationTests.swift */; };
 		A69BA16329C2809E004190EF /* BasicCustomVCAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA16229C2809E004190EF /* BasicCustomVCAnimationUITests.swift */; };
 		A69BA16529C2809E004190EF /* BasicCustomVCAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA16429C2809E004190EF /* BasicCustomVCAnimationUITestsLaunchTests.swift */; };
+		A69BA17229C283ED004190EF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BA17129C283ED004190EF /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A69BA15E29C2809E004190EF /* BasicCustomVCAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicCustomVCAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69BA16229C2809E004190EF /* BasicCustomVCAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCustomVCAnimationUITests.swift; sourceTree = "<group>"; };
 		A69BA16429C2809E004190EF /* BasicCustomVCAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCustomVCAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A69BA17129C283ED004190EF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A69BA14129C2809D004190EF /* AppDelegate.swift */,
 				A69BA14329C2809D004190EF /* SceneDelegate.swift */,
 				A69BA14529C2809D004190EF /* ViewController.swift */,
+				A69BA17129C283ED004190EF /* SecondViewController.swift */,
 				A69BA14729C2809D004190EF /* Main.storyboard */,
 				A69BA14A29C2809E004190EF /* Assets.xcassets */,
 				A69BA14C29C2809E004190EF /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69BA17229C283ED004190EF /* SecondViewController.swift in Sources */,
 				A69BA14629C2809D004190EF /* ViewController.swift in Sources */,
 				A69BA14229C2809D004190EF /* AppDelegate.swift in Sources */,
 				A69BA14429C2809D004190EF /* SceneDelegate.swift in Sources */,
