@@ -24,9 +24,11 @@ class FromBottomPushTransition: NSObject, UIViewControllerAnimatedTransitioning 
         let containerView = transitionContext.containerView
         containerView.addSubview(toView)
         let bounds = containerView.bounds
+        toView.alpha = 0.0
         toView.frame = bounds.offsetBy(dx: 0, dy: bounds.height)
         
         UIViewPropertyAnimator.runningPropertyAnimator(withDuration: duration, delay: 0, options: .curveEaseInOut) {
+            toView.alpha = 1.0
             toView.frame = bounds
         } completion: { position in
             let finished = !transitionContext.transitionWasCancelled

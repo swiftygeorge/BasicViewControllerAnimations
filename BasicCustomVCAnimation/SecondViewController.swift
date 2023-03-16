@@ -9,6 +9,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
+    var navControllerDelegate: NavControllerDelegate?
+    
     fileprivate let imageView: UIImageView = {
         let imageView = UIImageView()
         let image = UIImage(systemName: "face.smiling")
@@ -29,6 +31,11 @@ class SecondViewController: UIViewController {
             imageView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.3),
             imageView.heightAnchor.constraint(equalTo: imageView.widthAnchor)
         ])
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        navControllerDelegate = navigationController?.delegate as? NavControllerDelegate
     }
 
 }

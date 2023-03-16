@@ -10,6 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    private let navControllerDelegate = NavControllerDelegate()
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -18,6 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         let viewController = ViewController()
         let navController = UINavigationController(rootViewController: viewController)
+        navController.delegate = navControllerDelegate
         window?.rootViewController = navController
         window?.tintColor = .white
         window?.makeKeyAndVisible()

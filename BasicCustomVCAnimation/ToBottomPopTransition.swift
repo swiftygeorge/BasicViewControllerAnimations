@@ -25,9 +25,11 @@ class ToBottomPopTransition: NSObject, UIViewControllerAnimatedTransitioning {
         let containerView = transitionContext.containerView
         containerView.insertSubview(toView, at: 0)
         let bounds = containerView.bounds
+        toView.alpha = 0.0
         toView.frame = bounds
         
         UIViewPropertyAnimator.runningPropertyAnimator(withDuration: duration, delay: 0, options: .curveEaseInOut) {
+            toView.alpha = 1.0
             fromView.frame = bounds.offsetBy(dx: 0, dy: bounds.height)
         } completion: { position in
             let finished = !transitionContext.transitionWasCancelled

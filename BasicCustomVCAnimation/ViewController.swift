@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var navControllerDelegate: NavControllerDelegate?
+    
     fileprivate let resultsButton: UIButton = {
         let button = UIButton(configuration: .borderedTinted())
         button.configuration?.title = "VIEW RESULTS"
@@ -38,6 +40,11 @@ class ViewController: UIViewController {
             resultsButton.heightAnchor.constraint(equalToConstant: 50),
             resultsButton.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.6)
         ])
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        navControllerDelegate = navigationController?.delegate as? NavControllerDelegate
     }
 
     @objc fileprivate func showResults(_ sender: UIButton) {
