@@ -8,15 +8,41 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    fileprivate let resultsButton: UIButton = {
+        let button = UIButton(configuration: .borderedTinted())
+        button.configuration?.title = "VIEW RESULTS"
+        button.configuration?.buttonSize = .large
+        button.tintColor = .white
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
+    init() {
+        super.init(nibName: nil, bundle: nil)
+        resultsButton.addTarget(self, action: #selector(showResults(_:)), for: .touchUpInside)
+    }
+    
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemGreen
+        view.addSubview(resultsButton)
+        NSLayoutConstraint.activate([
+            resultsButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            resultsButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            resultsButton.heightAnchor.constraint(equalToConstant: 50),
+            resultsButton.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.6)
+        ])
     }
 
-    @IBAction private func showResults(_ sender: UIButton) {
+    @objc fileprivate func showResults(_ sender: UIButton) {
         let secondVC = SecondViewController()
-        present(secondVC, animated: true)
+        navigationController?.pushViewController(secondVC, animated: true)
     }
 
 }
